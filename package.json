@@ -1,16 +1,26 @@
 {
   "name": "cli-hyperliquid",
-  "version": "1.0.0",
-  "description": "Professional CLI dashboard for Hyperliquid - real-time market data, orderbook, funding rates & more. Zero dependencies.",
+  "version": "2.0.0",
+  "description": "Professional CLI dashboard for Hyperliquid - real-time market data, orderbook, funding rates, portfolio, alerts. Zero dependencies.",
   "main": "src/index.js",
   "bin": {
     "hyperliquid": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
-    "demo": "node src/index.js --demo"
+    "demo": "node src/index.js --demo",
+    "help": "node src/index.js --help"
   },
-  "keywords": ["hyperliquid", "cli", "dashboard", "crypto", "trading", "terminal"],
+  "keywords": [
+    "hyperliquid",
+    "cli",
+    "dashboard",
+    "crypto",
+    "trading",
+    "terminal",
+    "perpetuals",
+    "defi"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
