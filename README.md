@@ -1,5 +1,5 @@
 # Hyperliquid CLI Dashboard
-
+ 
 A professional, zero-dependency terminal dashboard for monitoring Hyperliquid perpetual futures markets in real-time.
 
 ```
